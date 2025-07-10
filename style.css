@@ -118,3 +118,37 @@ header{
   max-width: 100%;
   border-radius: 48px;
 }
+
+
+/* productive user style */
+
+.users {
+  text-align: center;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 50px 142px;
+  margin: 116px;
+}
+
+.users h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: center;
+  gap: 161px;
+}
+
+.stat h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+.stat p {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
