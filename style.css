@@ -12,6 +12,7 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    background-color: #f5f8ff;
 }
 
 header{
@@ -144,6 +145,7 @@ header{
 
 .stat h3 {
   font-size: 40px;
+  font-family: sans-serif;
   font-weight: bold;
   color: #4E47FF;
 }
@@ -151,4 +153,60 @@ header{
 .stat p {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* lets get in touch section */
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px;
+  gap: 115px;
+}
+
+.contact-left {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.contact-left h2 {
+  font-size: 66px;
+  font-weight: bold;
+}
+
+.contact-right {
+  flex: 2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid rgba(214, 221, 237, 1);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.contact-btn {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover{
+    background-color: rgba(71, 201, 255, 1);
+    transform: scale(1.05);
 }
