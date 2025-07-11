@@ -242,3 +242,82 @@ form input, form textarea {
   text-decoration: underline;
 }
 
+/* feedback section styles */
+
+.feedback {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: rgba(37, 36, 50, 1);
+}
+
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feedback-card {
+  background: white;
+  padding: 20px;
+  width: 280px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  text-align: left;
+}
+
+.stars {
+  margin-bottom: 10px;
+}
+
+.star-img {
+  width: 18px;
+  height: 18px;
+  margin-right: 2px;
+}
+
+.feedback-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.feedback-text {
+  font-size: 16px;
+  color: rgba(30, 30, 30, 1);
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-size: 16px;
+  font-weight: 600px;
+  margin: 0;
+  color: rgba(117, 117, 117, 1);
+}
+
+.review-date {
+  font-size: 16px;
+  color: rgba(179, 179, 179, 1);
+  margin: 0;
+}
+
+
