@@ -210,3 +210,35 @@ form input, form textarea {
     background-color: rgba(71, 201, 255, 1);
     transform: scale(1.05);
 }
+
+
+/* footer styles */
+
+
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.footer-subtitle {
+  color: rgba(137, 135, 161, 1);
+  max-width: 500px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  color: rgba(137, 135, 161, 1);
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: rgba(78, 71, 255, 1);
+  text-decoration: underline;
+}
+
